@@ -1,0 +1,130 @@
+/* Reglas del header*/
+#banner { 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/*Reglas del login*/
+.formulario fieldset {width: 300px; padding: 10px;}
+.formulario legend {font-weight: bold;}
+.formulario label {display: block; width: 100px;}
+.formulario input {float: none; display: inline;}
+.centrado {margin: 10px 50px;}
+.formulario a{color:white;}
+#fbusqueda fieldset {width: 300px; padding: 10px;}
+#login fieldset{width: 50px; padding: 10px;}
+/*Reglas del menu principal de navegacion*/
+main p{	
+	text-align:center;
+	font-style:bold;
+}
+.menu li{
+		display: inline;
+		margin:0;
+		padding:0;
+		background-color:white;
+		text-align: center;
+		}
+.menu ul{
+		text-align: center;}
+.menu a{
+		margin:0;
+		color: white;	
+		padding: .3em 1em;
+		text-decoration:none;
+}
+.menu a:hover{
+	background-color:green;
+}
+#centrar {
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+/*--------------------------*/
+.ultimasfotos li{
+display: inline;
+list-style-type: none;
+padding-right: 5px;
+}
+h1{
+	font-family: Arial;
+	font-size: 2em
+}
+/* Reglas del body*/
+body{
+	font-family: Arial;
+	background-color:#303030 ;
+	color:white;
+	font-size: 1.5em;
+	background-image:none;
+	}
+input{
+/*Para cualquier formulario*/
+	border-radius: 5px;
+	border:0;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
+/* Reglas del footer*/
+footer{ 
+	text-align: center;
+	margin-top:50px; 
+	font-family:"Times New Roman"; 
+	font-size:1.5em
+}
+footer a{
+	color:yellow;
+}
+footer a:hover{
+	color:green;
+	font-size:1.3em;
+}
+/* Reglas extras*/
+ul{ list-style-type:none;}
+li a:link {color:blue}
+li a:hover{color:#FF9900}
+li a:active{color:white}
+li a:visited{color:blue}
+#infoRegistro{text-align:center;}
+#registro {  
+	margin: 0 auto;
+	width:400px;
+  }
+#fbusqueda {
+	margin: 0 auto;
+	width:300px}
+#imagenesBusqueda img {
+margin: 20px;
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+#imagenesBusqueda img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+.detalleFoto {
+	width:450px;
+    margin-left: auto;
+    margin-right: auto;}
+.detalleFoto li{
+	text-align: center;}
+.detalleFoto img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

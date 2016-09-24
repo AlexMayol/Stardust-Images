@@ -1,0 +1,8 @@
+/*consulta para ver un album en concreto*/
+select * from albumes where IdAlbum = id;
+
+/*consulta para ver detallefoto*/
+select * from fotos where IdFoto = id;
+
+/*consulta para las ultimas 5 fotos*/
+select * form fotos where IdFoto <=5;

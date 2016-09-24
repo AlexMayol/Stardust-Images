@@ -1,0 +1,190 @@
+/* Reglas del header*/
+#banner { 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/*Reglas del login*/
+.formulario fieldset {width: 400px; padding: 10px;}
+.formulario legend {font-weight: bold;}
+.formulario label {display: block; width: 2px;}
+.formulario input {display: inline;}
+.centrado {margin: 10px 60px;}
+.formulario a{text-decoration:underline;}
+.formulario a:hover{color:green;}
+#formulario a:active{color:#999999;font-weight: bold;}
+#formulario a:visited{color:blue}
+#fbusqueda fieldset {width: 300px; padding: 10px;}
+#loginIndex fieldset{width: 50px; padding: 10px;}
+#loginIndex{float:left;}
+#loginIndex{
+	position: relative;
+    left:0px;
+	top:-250px;
+	clear:both;
+}
+/*Reglas del menu principal de navegacion*/
+main p{	
+	text-align:center;
+	font-style:bold;
+}/*Puede que cree errores*/
+.menu li{
+		display: inline;
+		margin:0;
+		padding:0;
+		background-color:white;
+		text-align: center;
+		}
+.menu ul{
+		text-align: center;}
+.menu a{
+		margin:0;
+		color: white;	
+		padding: .3em 1em;
+}
+.menu a:hover{
+	background-color:green;
+}
+#centrar {
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+/*--------------------------*/
+.ultimasfotos li{
+display: inline;
+list-style-type: none;
+padding-right: 5px;
+}
+.ultimasfotos li figure {float:left;}
+h1{
+	font-family: Arial;
+	font-size: 2em
+}
+
+/* Reglas del body*/
+
+body{
+	font-family: Arial;
+	background-image: url("../web_img/purty_wood.png");
+	}
+input{
+/*Para cualquier formulario*/
+	border-radius: 5px;
+	border:0;
+}
+hr{
+clear:both;
+    border: 0px;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
+/* Reglas del footer*/
+footer{ 
+	clear:both;
+	text-align: center;
+	margin-top:50px; 
+	font-family:"Times New Roman"; 
+	font-size:1.1em
+}
+footer a:hover{color:white;
+	font-size:1.3em;
+	}
+/* Reglas extras*/
+#centrarDestroy
+{
+	text-align:center;
+}
+#centrarMenuError
+{
+	text-align:center;
+}
+#detalleFotoCentrar {
+	text-align:center;
+}
+a {text-decoration:none}
+ul{ list-style-type:none;}
+li a:link {color:blue}
+li a:hover{color:#FF9900}
+li a:active{color:white}
+li a:visited{color:blue}
+#infoRegistro{text-align:center;}
+#registro {  
+	margin: 0 auto;
+	width:400px;
+  }
+#fbusqueda {
+	margin: 0 auto;
+	width:300px}
+#imagenesBusqueda img {
+margin: 20px;
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+#imagenesBusqueda img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+
+.detalleFoto {
+	width:450px;
+    margin-left: auto;
+    margin-right: auto;}
+.detalleFoto li{
+	text-align: center;}
+.detalleFoto img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#creaAlbum {  
+	margin: 0 auto;
+	width:400px;
+  }
+.fotoPerfil
+{
+	width:200px;
+	height:200px;
+}
+.redim
+{
+	width:400px;
+	height:300px;
+}
+/*aniadidos para niquelarlo*/
+.menuPerfil li{
+		display: inline;
+		margin:0;
+		padding:0;
+		background-color:white;
+		text-align: center;
+		}
+.menuPerfil ul{
+		text-align: center;}
+.menuPerfil a{
+		margin:0;
+		color: white;	
+		padding: .3em 1em;
+}
+.menuPerfil a:hover{
+	background-color:yellow;
+}
+.linksRandom a{
+	background-color:white;
+}
+.linksRandom  a:hover{
+	background-color:yellow;
+}
